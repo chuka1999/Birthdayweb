@@ -1,0 +1,85 @@
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vph;
+}
+body {
+    background-image: url(/photos/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rounded {
+    width: 100%;
+    height: inherit;
+}
+#blur-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+#blur-overlay.active {
+    opacity: 1;
+}
+.toast {
+    width: 15%;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.3s ease;  
+}
+.roast {
+    
+}
+.toast.show, .toast.showing {
+    opacity: 1;
+    transform: scale(1);
+}
+.toast.hide {
+    opacity: 0;
+    transform: scale(0.9);
+}
+.dropdown {
+    margin-top: 5%;
+}
+.roundedbox {
+    margin-bottom: 2%;
+    background: #757576;
+    border-radius: 12px;
+    width: fit-content;
+    padding: 1%;
+ 
+}
+.peek {
+    color: rgb(248, 249, 251);
+}
+.carousel {
+  box-shadow: 0 4px 25px rgba(0.5, 0.5, 0.5, 0.5);
+  border-radius: 12px; 
+  border: 3px solid white;
+}
+.d-block {
+    box-shadow: 0 4px 25px rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 12px; 
+    border: 3px solid white;
+}
+.btn {
+    background: #757576;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card-title {
+    font-size: 40px;
+}
+.lead {
+    font-size: 30px;
+    text-align: justify;
+    font-family: cursive;
+  
+}
+.dropdown-menu {
+    font-size: 25px;
+    padding: 2%;
+}
